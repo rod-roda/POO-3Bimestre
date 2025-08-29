@@ -19,7 +19,6 @@ public class Agendamento {
         setAdicional("Nenhum");
     }
     
-    @Override
     public String toString() {
         return "Horario " + horarioDoBanho + " - Pet: " + nomePet + 
                ", Dono: " + nomeDono + ", Telefone: " + telefoneDono + 
